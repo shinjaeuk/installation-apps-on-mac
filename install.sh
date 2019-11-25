@@ -1,5 +1,10 @@
 # !/bin/bash
 
+# sdkman
+curl -s "https://get.sdkman.io" | bash
+sdk install java 8.0.232.j9-adpt
+sdk default java 8.0.232.j9-adpt
+
 # install brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
