@@ -232,7 +232,7 @@
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/installApps/iterms2</string>
+	<string>~/github/installation-apps-on-mac/iterm2</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
 	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
@@ -974,15 +974,19 @@
 	</dict>
 	<key>NoSyncInstallationId</key>
 	<string>783CA1D3-DAEB-4B49-9CFC-3969DA69BB3C</string>
+	<key>NoSyncLastTipTime</key>
+	<real>596530568.14329898</real>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>6</integer>
+	<integer>7</integer>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>1</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>596508803.38956904</real>
+	<real>596616964.08016503</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
+	<true/>
+	<key>NoSyncPermissionToShowTip</key>
 	<true/>
 	<key>NoSyncRecordedVariables</key>
 	<dict>
@@ -1366,6 +1370,14 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>currentTab.window</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>id</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -1465,7 +1477,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession</string>
+				<string>currentSession.terminalWindowName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1569,6 +1581,14 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>window</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>id</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -1647,19 +1667,19 @@
 			</dict>
 			<dict>
 				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
 				<false/>
 				<key>name</key>
 				<string>currentSession</string>
 				<key>nonterminalContext</key>
 				<integer>1</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<true/>
-				<key>name</key>
-				<string>currentSession.terminalWindowName</string>
-				<key>nonterminalContext</key>
-				<integer>0</integer>
 			</dict>
 		</array>
 		<key>4</key>
@@ -1692,6 +1712,10 @@
 	</dict>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
 	<real>596336003.38933206</real>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+	</array>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1726,7 +1750,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/jaeukshin/installApps/iterms2</string>
+	<string>/Users/jaeukshin/github/installation-apps-on-mac/iterm2</string>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedAlternateAppNameKey</key>
@@ -1736,7 +1760,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-11-25T00:55:46Z</date>
+	<date>2019-11-27T06:56:08Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SoundForEsc</key>
