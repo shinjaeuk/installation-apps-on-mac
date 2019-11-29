@@ -37,3 +37,4 @@ mas "Caffeinated", id: 1362171212
 mas "KakaoTalk", id: 869223134
 mas "Magnet", id: 441258766
 mas "Snappy", id: 512617038
+mas "Movist", id: 461788075
