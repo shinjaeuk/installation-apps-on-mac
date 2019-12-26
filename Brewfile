@@ -35,6 +35,7 @@ cask "google-chrome"
 cask "google-backup-and-sync"
 cask "typora"
 cask "istat-menus"
+cask "evernote"
 mas "Caffeinated", id: 1362171212
 mas "KakaoTalk", id: 869223134
 mas "Magnet", id: 441258766
