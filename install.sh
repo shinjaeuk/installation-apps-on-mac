@@ -28,7 +28,7 @@ chmod 755 ./vscode/install.sh
 echo '1. zsh'
 echo './zsh/install.sh'
 
-# configure VSCode
+# configure VS Code
 echo '2. vscode'
 echo './vscode/install.sh'
 
