@@ -15,14 +15,24 @@ brew bundle --file=./Brewfile
 cp -a ./fonts/. ~/Library/Fonts
 
 
-# zsh
-chmod 755 ./zsh/install.sh
-./zsh/install.sh
+echo ' click font file'
+echo ' click install font'
+echo ' open iterm2 -> change font'
 
-# iterms2
+
+chmod 755 ./zsh/install.sh
 chmod 755 ./iterm2/install.sh
-./iterm2/install.sh
+chmod 755 ./vscode/install.sh
+
+# zsh
+echo '1. zsh'
+echo './zsh/install.sh'
 
 # configure VSCode
-chmod 755 ./vscode/install.sh
-./vscode/install.sh
+echo '2. vscode'
+echo './vscode/install.sh'
+
+# iterms2
+echo '3. iterms2'
+echo 'Preferneces -> General -> Preferences -> Locad preferences from a cuatom folder or URL
+

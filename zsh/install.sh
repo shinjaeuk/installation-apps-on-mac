@@ -11,3 +11,6 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 # copy .zshrc
 cp ./.zshrc ~/.zshrc
+
+# change shell
+chsh -s /bin/zsh
