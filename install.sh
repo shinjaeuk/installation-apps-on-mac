@@ -14,9 +14,9 @@ brew bundle --file=./Brewfile
 # install font
 cp -a ./fonts/. ~/Library/Fonts
 
-echo ' click font file'
-echo ' click install font'
-echo ' open iterm2 -> change font'
+echo ' 1. Click font file'
+echo ' 2. Click install font'
+echo ' 3. Open iterm2 -> change font'
 
 chmod 755 ./zsh/install.sh
 chmod 755 ./iterm2/install.sh
