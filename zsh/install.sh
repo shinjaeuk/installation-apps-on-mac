@@ -10,4 +10,4 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # copy .zshrc
-cp ./zsh/.zshrc ~/.zshrc
+cp ./.zshrc ~/.zshrc
