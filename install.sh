@@ -19,7 +19,6 @@ echo ' 2. Click install font'
 echo ' 3. Open iterm2 -> change font'
 
 chmod 755 ./zsh/install.sh
-chmod 755 ./iterm2/install.sh
 chmod 755 ./vscode/install.sh
 
 # zsh
