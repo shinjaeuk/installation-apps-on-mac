@@ -119,6 +119,8 @@ source $ZSH/oh-my-zsh.sh
 alias vim="nvim"
 alias vi="nvim"
 alias vimdiff="nvim -d"
+alias k=kubectl
+complete -F __start_kubectl k
 export EDITOR=/usr/local/bin/nvim
 
 
@@ -127,5 +129,6 @@ export EDITOR=/usr/local/bin/nvim
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/jaeukshin/.sdkman"
 [[ -s "/Users/jaeukshin/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/jaeukshin/.sdkman/bin/sdkman-init.sh"
+[[ /usr/local/bin/kubectl ]] && source <(kubectl completion zsh)
 
 source "$HOME/.sdkman/bin/sdkman-init.sh"
