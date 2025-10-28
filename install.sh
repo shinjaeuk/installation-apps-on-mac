@@ -2,11 +2,11 @@
 
 # sdkman
 curl -s "https://get.sdkman.io" | bash
-sdk install java 8.0.232.j9-adpt
-sdk default java 8.0.232.j9-adpt
+sdk install java 21.0.8-tem
+sdk default java 21.0.8-tem
 
 # install brew
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+#/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 # install via brew
 brew bundle --file=./Brewfile
