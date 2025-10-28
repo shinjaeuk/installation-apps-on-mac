@@ -41,6 +41,7 @@ cask "heynote"
 cask "microsoft-teams"
 cask "raycast"
 cask "whatsapp"
+cask "rectangle"
 
 # Mac App Store (mas)
 mas "Caffeinated", id: 1362171212
