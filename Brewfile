@@ -4,7 +4,7 @@ tap "homebrew/core"
 tap "mongodb/brew"
 
 # CLI (formulae)
-brew "fasd"
+brew "zoxide"
 brew "fzf"
 brew "git"
 brew "gradle"
