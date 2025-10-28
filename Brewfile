@@ -42,6 +42,8 @@ cask "microsoft-teams"
 cask "raycast"
 cask "whatsapp"
 cask "rectangle"
+cask "raindropio"
+cask "deepl"
 
 # Mac App Store (mas)
 mas "Caffeinated", id: 1362171212
