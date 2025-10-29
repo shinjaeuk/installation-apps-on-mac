@@ -44,6 +44,7 @@ cask "whatsapp"
 cask "rectangle"
 cask "raindropio"
 cask "deepl"
+cask "openlens"
 
 # Mac App Store (mas)
 mas "Caffeinated", id: 1362171212
