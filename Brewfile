@@ -45,6 +45,7 @@ cask "rectangle"
 cask "raindropio"
 cask "deepl"
 cask "openlens"
+cask ngrok
 
 # Mac App Store (mas)
 mas "Caffeinated", id: 1362171212
