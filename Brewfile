@@ -20,6 +20,7 @@ brew "mas"
 brew "mongodb-community"
 
 # GUI (casks)
+cask "google-chrome"
 cask "chatgpt"
 cask "docker"
 cask "ghostty"
