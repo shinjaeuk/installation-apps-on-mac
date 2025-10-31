@@ -6,6 +6,7 @@ tap "mongodb/brew"
 # CLI (formulae)
 brew "zoxide"
 brew "fzf"
+brew "fd"
 brew "git"
 brew "gradle"
 brew "jq"
@@ -18,6 +19,8 @@ brew "wget"
 brew "tree"
 brew "mas"
 brew "mongodb-community"
+brew "the_silver_searcher"
+brew "llm"
 
 # GUI (casks)
 cask "google-chrome"
